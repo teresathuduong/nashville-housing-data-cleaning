@@ -31,11 +31,11 @@ To get started with this project, you'll need a SQL database (e.g., SQL Server, 
     ```
 
 2.  **Import the Dataset:**
-    Load the `Nashville Housing Data for Data Cleaning (csv).csv` file into your SQL database. Create a new table (e.g., `NashvilleHousing`) and import the CSV data into it. Ensure column data types are appropriate (e.g., `NVARCHAR` for text, `DATE` for dates, `FLOAT` for numerical values).
+    Load the `nashville_housing_raw.csv` file into your SQL database. Create a new table (e.g., `NashvilleHousing`) and import the CSV data into it. Ensure column data types are appropriate (e.g., `NVARCHAR` for text, `DATE` for dates, `FLOAT` for numerical values).
 
     *Example for SQL Server (using SSMS Import/Export Wizard):*
     1.  Right-click on your database -> Tasks -> Import Flat File...
-    2.  Browse to `Nashville Housing Data for Data Cleaning (csv).csv`.
+    2.  Browse to `nashville_housing_raw.csv.csv`.
     3.  Follow the wizard to create a new table (e.g., `NashvilleHousing`) and import the data.
 
 3.  **Execute the SQL Script:**
